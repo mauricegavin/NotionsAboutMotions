@@ -1,0 +1,64 @@
+<manifest package="com.mauricegavin.notionsaboutmotions"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.mauricegavin.notionsaboutmotions.HomeActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mauricegavin.notionsaboutmotions.SimpleActivity"
+            android:label="ConstraintSet">
+        </activity>
+
+        <activity
+            android:name="com.mauricegavin.notionsaboutmotions.MotionActivity"
+            android:label="MotionLayout">
+        </activity>
+
+        <activity
+            android:name="com.mauricegavin.notionsaboutmotions.SelfContainedMotionActivity"
+            android:label="Self contained Motion">
+        </activity>
+
+        <activity
+            android:name="com.mauricegavin.notionsaboutmotions.CustomAttributesActivity"
+            android:label="Custom Attributes">
+        </activity>
+
+        <activity
+            android:name="com.mauricegavin.notionsaboutmotions.ImageFilterActivity"
+            android:label="Image Filter">
+        </activity>
+
+        <activity
+            android:name="com.mauricegavin.notionsaboutmotions.KeyframeActivity"
+            android:label="Keyframe">
+        </activity>
+
+        <activity
+            android:name="com.mauricegavin.notionsaboutmotions.YoutubeStyleActivity"
+            android:label="YouTube Style">
+        </activity>
+
+        <activity
+            android:name="com.mauricegavin.notionsaboutmotions.StarWarsActivity"
+            android:label="In A Layout Far Far Away">
+        </activity>
+
+
+    </application>
+
+
+</manifest>
