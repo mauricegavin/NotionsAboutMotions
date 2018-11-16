@@ -63,7 +63,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="We can define an `altSrc` to be used in the crossfade animation."
+        android:text="We can use `ImageFilterView` with an `altSrc` to be achieve a crossfade animation."
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="parent"/>

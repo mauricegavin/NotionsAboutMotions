@@ -82,10 +82,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.738"
+        app:layout_constraintHorizontal_bias="0.76"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.835"/>
+        app:layout_constraintVertical_bias="0.82"/>
 
     <ImageView
         android:id="@+id/cone_image3"
@@ -122,7 +122,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Rotation is achieved with KeyAttribute\nCan also scale"
+        android:text="Rotation is achieved with KeyAttribute.\nIt can also scale views. This screen uses a combination of KeyPosition and KeyAttribute to achieve this animation."
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="parent"/>

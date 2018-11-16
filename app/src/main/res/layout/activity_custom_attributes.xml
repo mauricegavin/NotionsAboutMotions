@@ -62,7 +62,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Here we use only one layout.\n\nConstraint and attribute changes are described in the MotionScene."
+        android:text="In this layout we use a CustomAttribute to change the textColor during the transition.\nWe can change alpha, visibility, elevation, rotation, and scale with CustomAttribute."
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="parent"/>

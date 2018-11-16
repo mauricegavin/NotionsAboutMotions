@@ -62,7 +62,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="saturation | contrast | warmth\n\nSaturation = 0 (grayscale)"
+        android:text="ImageFilterView allows us to modify saturation, contrast, warmth during the transition.\n\nHere Saturation = 0 (grayscale)"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="parent"/>

@@ -18,15 +18,17 @@ class SimpleActivity : AppCompatActivity() {
 
         val speed = intent.getLongExtra("speed", 600L)
 
-        animation()
+        //animation()
         toggleAnimation(speed)
     }
 
     private fun animation() {
-        val constraintSet = ConstraintSet()
-        constraintSet.clone(this, R.layout.activity_simple_end)
-        TransitionManager.beginDelayedTransition(root)
-        constraintSet.applyTo(root)
+        findViewById<ImageView>(R.id.emergency_image).setOnClickListener {
+            val constraintSet = ConstraintSet()
+            constraintSet.clone(this, R.layout.activity_simple_end)
+            TransitionManager.beginDelayedTransition(root)
+            constraintSet.applyTo(root)
+        }
     }
 
     private fun toggleAnimation(speed: Long) {

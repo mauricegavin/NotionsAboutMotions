@@ -15,7 +15,6 @@
 
     <ConstraintSet android:id="@+id/start">
 
-
         <Constraint
             android:id="@+id/info"
             android:layout_width="0dp"
