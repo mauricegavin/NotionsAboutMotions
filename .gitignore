@@ -18,3 +18,4 @@
 # Eclipse project files
 .classpath
 .project
+app/release
